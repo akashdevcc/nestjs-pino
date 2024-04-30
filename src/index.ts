@@ -1,4 +1,4 @@
-export { LoggerModule } from './LoggerModule';
+export { LoggerModule, createLoggerMiddlewares } from './LoggerModule';
 export { Logger } from './Logger';
 export { PinoLogger } from './PinoLogger';
 export { InjectPinoLogger, getLoggerToken } from './InjectPinoLogger';

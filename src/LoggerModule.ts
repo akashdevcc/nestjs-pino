@@ -90,7 +90,7 @@ export class LoggerModule implements NestModule {
   }
 }
 
-function createLoggerMiddlewares(
+export function createLoggerMiddlewares(
   params: NonNullable<Params['pinoHttp']>,
   useExisting = false,
 ) {
